@@ -5,13 +5,13 @@ import styles from '../page.module.css'
 import { LazyImageWrapper } from '../LazyImageWrapper'
 
 export default async function Home() {
-  const response = await fetch('https://lazy-image.vakhula.dev/pexels-ioana-motoc-4376217.jpg')
-  const buffer = await response.arrayBuffer()
-  const  { format, width = 0, height = 0 } = await sharp(buffer).metadata();
+  // const response = await fetch('https://lazy-image.vakhula.dev/pexels-ioana-motoc-4376217.jpg')
+  // const buffer = await response.arrayBuffer()
+  // const  { format, width = 0, height = 0 } = await sharp(buffer).metadata();
 
-  const resizedImageBuf = await sharp(buffer)
-    .resize(Math.round(width * compression), Math.round(height * compression))
-    .toBuffer();
+  // const resizedImageBuf = await sharp(buffer)
+  //   .resize(Math.round(width * compression), Math.round(height * compression))
+  //   .toBuffer();
     
   return (
     <main className={styles.main}>
