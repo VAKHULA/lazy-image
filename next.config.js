@@ -10,6 +10,10 @@ const nextConfig = {
           },
         ],
       },
+      api: {
+        bodyParser: false,
+        responseLimit: '8mb',
+      },
 }
 
 module.exports = nextConfig

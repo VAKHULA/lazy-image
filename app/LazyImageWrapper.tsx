@@ -11,10 +11,6 @@ interface Props {
 export const LazyImageWrapper = async ({ src, alt, compression = 0.1 }: Props) => {
   const response = await fetch(src)
 
-  // if (!response.ok) {
-  //   throw new Error(`HTTP error, status = ${response.status}`);
-  // }
-
   const buffer = await response.arrayBuffer()
   const  { format, width = 0, height = 0 } = await sharp(buffer).metadata();
 
