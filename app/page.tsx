@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.masonry_grid}>
         {images.map((image, idx)=>(
           <div key={idx} className={styles.masonry_grid__item}>
-            {/* <LazyImageWrapper src={`http://localhost:3000/${image}`} alt={image} /> */}
+            <LazyImageWrapper src={`https://lazy-image.vakhula.dev/${image}`} alt={image} />
           </div>
         ))}
       </div>
