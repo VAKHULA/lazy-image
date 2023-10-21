@@ -10,6 +10,7 @@
 .masonry_grid {
   column-count: 1;
   column-gap: 1rem;
+  width: 100%;
 }
 
 /* Medium devices (tablets, 768px and up) */
