@@ -6,4 +6,4 @@
 
 [Default images grid next-image](https://lazy-image.vakhula.dev/next-image)
 
-[Lazy images with Server component and 'sharp'](https://lazy-image.vakhula.dev/next-image)
+[Lazy images with Server component and 'sharp'](https://lazy-image.vakhula.dev)

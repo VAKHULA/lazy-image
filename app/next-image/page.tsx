@@ -22,11 +22,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.masonry_grid}>
-        {images.map((image, idx)=>(
+        {images.map((image, idx) => (
           <div key={idx} className={styles.masonry_grid__item}>
             <Image
-              src={`https://lazy-image.vakhula.dev/${image}`}
+              src={`/${image}`}
               alt={image}
+              width={500}
+              height={500}
             />
           </div>
         ))}
