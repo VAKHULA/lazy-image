@@ -4,8 +4,7 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const src = searchParams.get('src')
   const format = searchParams.get('format') || 'jpg'
-console.log(src)
-console.log(format)
+
   if (!src){
     return new Response(null, {
       status: 404,

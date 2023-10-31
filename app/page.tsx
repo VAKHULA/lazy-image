@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import { LazyImageWrapper } from './LazyImageWrapper'
+
 const images = [
   'pexels-amina-filkins-5414038.jpg',
   'pexels-disha-sheta-4604768.jpg',
@@ -15,6 +16,7 @@ const images = [
   'pexels-skyler-ewing-5743922.jpg',
   'pexels-teona-swift-6913746.jpg',
 ]
+
 export default function Home() {
   return (
     <main className={styles.main}>

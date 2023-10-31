@@ -2,6 +2,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 
 import { useIsVisible } from './use-is-visible'
+
 interface Props {
   src: string
   blurData: string
